@@ -38,7 +38,7 @@ function renderTable() {
 $submitBtn.addEventListener("click", filterInput);
 
 function filterDate(filteredSighting) {
-  return filteredSighting.date == $dateInput.value.trim().toLowerCase();
+  return filteredSighting.datetime == $dateInput.value.trim().toLowerCase();
 };
 
 function filterCity(filteredSighting) {
